@@ -1,5 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
 /*INIZIO STILE HEADER*/ 
-
+header {
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: 300px 150px;
+    background-position-x: -95px;
+}
+#Logo {
+    width: 155px;
+    padding: 30px 0px 5px 5px;
+}
 /*FINE STILE HEADER*/ 
 /*INIZIO STILE MAIN*/ 
 
