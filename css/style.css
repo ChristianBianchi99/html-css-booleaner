@@ -15,9 +15,37 @@ header {
     padding: 30px 0px 5px 5px;
 }
 /*FINE STILE HEADER*/ 
+#Container {
+    margin: 5px 5px;
+}
 /*INIZIO STILE MAIN*/ 
-
+h1 {
+    font-size: 29px;
+}
+#Crediti {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: rgb(12, 161, 226);
+}
+#Data {
+    font-size: 9px;
+    margin-bottom: 15px;
+}
+#Img-Tim {
+    height: 275px;
+}
+#Didascalia {
+    font-size: 9px;
+}
 /*FINE STILE MAIN*/ 
+/*INIZIO CLASSI IN COMUNE TRE MAIN E FOOTER*/
+.Testo-grigio {
+    color: rgb(131, 131, 131);
+}
+.Testo-bianco
+/*FINE CLASSI IN COMUNE TRE MAIN E FOOTER*/
 /*INIZIO STILE FOOTER*/ 
 
 /*FINE STILE FOOTER*/ 
