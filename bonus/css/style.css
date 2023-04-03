@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body {
+    font-size: 15px;
+ }
+/*INIZIO STILE HEADER*/ 
+header {
+    background-color: #4EA0FF;
+    background-image: url(../img/pattern.png);
+    background-size: 300px 150px;
+    background-position-x: -95px;
+}
+#Logo {
+    width: 155px;
+    Margin: 30px 0px 5px 80px;
+}
+/*FINE STILE HEADER*/ 
+#Container {
+    margin: 5px 80px;
+}
+/*INIZIO STILE MAIN*/ 
+h1 {
+    font-size: 29px;
+}
+#Crediti {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: rgb(12, 161, 226);
+}
+#Data {
+    font-size: 9px;
+    margin-bottom: 15px;
+}
+/*Inizio stile immagini*/
+.Img-Tim {
+    height: 275px;
+}
+/*Fine stile immagini*/
+#Didascalia {
+    font-size: 9px;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 20px;
+}
+.Frasi-evidenziate {
+    background-color: rgb(254, 254, 0);
+    }
+ul {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+/*Inizio stile tabella*/
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    table-layout: fixed;
+    width: 100%;
+}
+thead {
+    background-color: rgb(32, 169, 229);
+}
+th {
+    color: white;
+    text-align: left;
+}
+#Sezione-tabella {
+    width: 50%;
+}
+.Riga-dispari {
+    background-color: rgb(177, 229, 242);
+}
+/*Fine stile tabella*/
+/*FINE STILE MAIN*/ 
+/*INIZIO CLASSI IN COMUNE TRE MAIN E FOOTER*/
+.Testo-grigio {
+    color: rgb(131, 131, 131);
+}
+/*FINE CLASSI IN COMUNE TRE MAIN E FOOTER*/
+/*INIZIO STILE FOOTER*/ 
+#Titolo-footer {
+    font-weight: bold;
+}
+#Ad-1 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 155px;
+}
+#Ad-2 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 155px;}
+/*FINE STILE FOOTER*/ 
