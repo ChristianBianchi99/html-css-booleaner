@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
  }
+ body {
+    font-size: 15px;
+ }
 /*INIZIO STILE HEADER*/ 
 header {
     background-color: #4EA0FF;
@@ -33,18 +36,46 @@ a {
     font-size: 9px;
     margin-bottom: 15px;
 }
-#Img-Tim {
+/*Inizio stile immagini*/
+.Img-Tim {
     height: 275px;
 }
+/*Fine stile immagini*/
 #Didascalia {
     font-size: 9px;
+    margin-bottom: 20px;
 }
+p {
+    margin-bottom: 20px;
+}
+.Frasi-evidenziate {
+    background-color: rgb(254, 254, 0);
+    }
+ul {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+/*Inizio stile tabella*/
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+thead {
+    background-color: rgb(32, 169, 229);
+}
+th {
+    color: white;
+    text-align: left;
+}
+.Riga-dispari {
+    background-color: rgb(177, 229, 242);
+}
+/*Fine stile tabella*/
 /*FINE STILE MAIN*/ 
 /*INIZIO CLASSI IN COMUNE TRE MAIN E FOOTER*/
 .Testo-grigio {
     color: rgb(131, 131, 131);
 }
-.Testo-bianco
 /*FINE CLASSI IN COMUNE TRE MAIN E FOOTER*/
 /*INIZIO STILE FOOTER*/ 
 
