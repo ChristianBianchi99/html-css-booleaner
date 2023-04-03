@@ -59,6 +59,8 @@ ul {
 table {
     border-collapse: collapse;
     margin-bottom: 20px;
+    table-layout: fixed;
+    width: 100%;
 }
 thead {
     background-color: rgb(32, 169, 229);
@@ -66,6 +68,9 @@ thead {
 th {
     color: white;
     text-align: left;
+}
+#Sezione-tabella {
+    width: 50%;
 }
 .Riga-dispari {
     background-color: rgb(177, 229, 242);
@@ -78,5 +83,32 @@ th {
 }
 /*FINE CLASSI IN COMUNE TRE MAIN E FOOTER*/
 /*INIZIO STILE FOOTER*/ 
-
+#Titolo-footer {
+    font-weight: bold;
+}
+#Ad-1 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 155px;
+}
+#Ad-2 {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 155px;}
 /*FINE STILE FOOTER*/ 
